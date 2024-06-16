@@ -1,0 +1,47 @@
+@charset "UTF-8";
+*{
+				margin: 0 auto;
+				padding: 0px;
+			}
+			
+			.title{
+				text-align: center;
+				font-size: 24px;
+				height: 35px;
+				line-height: 35px;
+			}
+			input[type='text']{
+				background-color: white;
+				border: 1px solid #ddd;
+				height: 35px;
+				width: 280px;
+				border-radius: 5px;margin-top: 20px;
+				margin-left: 20px;
+			}
+			input[type='password']{
+				background-color: white;
+				border: 1px solid #ddd;
+				height: 35px;
+				width: 280px;
+				border-radius: 5px;margin-top: 20px;
+				margin-left: 20px;
+			}
+			form{
+					margin:0 auto;/* 水平居中 */
+							position: absolute; /* 相对定位 */
+							top: 45%; /* 距离顶部 50% */
+							left: 50%; /* 距离左侧 50% */
+							transform: translate(-50%, -50%);
+							background-color: white;
+			}
+			input[type='submit']{
+				height: 35px;
+				line-height: 35px;
+				width: 332px;
+				border-radius: 5px;
+				border: none;
+				text-align: center;
+				margin-top: 20px;
+				color: white;
+				background-color: #299266;
+			}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						text-decoration: none;
+					}
+					.box{
+						width: 100%;
+						height: 100%;
+						
+					}
+					.title{
+						font-size: 24px;
+					}
+					.red{
+					display:none;
+					color:red;
+					font-size:14px;
+					}
+					input[type='text']{
+						background-color: white;
+						border: 1px solid #ddd;
+						height: 35px;
+						width: 280px;
+						border-radius: 5px;
+					}
+					input[type='password']{
+						background-color: white;
+						border: 1px solid #ddd;
+						height: 35px;
+						width: 280px;
+						border-radius: 5px;
+					}
+					.contain{
+							margin:0 auto;/* 水平居中 */
+									position: absolute; /* 相对定位 */
+									top: 45%; /* 距离顶部 50% */
+									left: 50%; /* 距离左侧 50% */
+									transform: translate(-50%, -50%);
+									background-color: white;
+					}
+					label{
+						display: inline-block;
+						margin-top: 10px;
+						margin-bottom: 10px;
+					}
+					input[type='radio']{
+						margin-top: 10px;
+					}
+					.register{
+						height: 35px;
+						border-radius: 5px;
+						width: 280px;
+						border: none;
+						background-color: #299266;
+						color: white;
+						
+					}
+					.login{
+						height: 35px;
+						border-radius: 5px;
+						width: 280px;
+						border: none;
+						background-color: #2d6fb7;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						color: white;
+					}
